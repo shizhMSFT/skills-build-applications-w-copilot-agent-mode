@@ -1,0 +1,125 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .octofit-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #22223b;
+  color: #f2e9e4;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+
+.App-link, .navbar a, .nav-link {
+  color: #3a86ff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar a:hover, .nav-link:hover {
+  color: #ff006e !important;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link.active {
+  color: #ffbe0b !important;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.08);
+}
+th {
+  background: #3a86ff;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #f1f3f8;
+}
+
+.btn, .btn-primary {
+  background: #3a86ff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #8338ec;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(58, 134, 255, 0.10);
+  margin-bottom: 2rem;
+}
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #3a86ff;
+  color: #fff;
+}
+.modal-footer .btn {
+  background: #8338ec;
+}
+
+/* Custom scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #3a86ff;
+  border-radius: 8px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
